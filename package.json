@@ -1,0 +1,27 @@
+{
+  "name": "oylog",
+  "version": "0.1.0",
+  "description": "Log text to scrren, file or both. Uses simple semantic syntax.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roy501/oyLog.git"
+  },
+  "keywords": [
+    "log",
+    "logger"
+  ],
+  "author": "Roy Hershkovitz",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/roy501/oyLog/issues"
+  },
+  "homepage": "https://github.com/roy501/oyLog#readme",
+  "dependencies": {
+    "cli-color": "^1.1.0",
+    "mkdirp": "^0.5.1"
+  }
+}
