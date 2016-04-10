@@ -1,5 +1,5 @@
 {
-  "name": "oylog",
+  "name": "oy-log",
   "version": "0.1.0",
   "description": "Log text to scrren, file or both. Uses simple semantic syntax.",
   "main": "index.js",
@@ -17,9 +17,9 @@
   "author": "Roy Hershkovitz",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/roy501/oyLog/issues"
+    "url": "https://github.com/royhersh/oyLog/issues"
   },
-  "homepage": "https://github.com/roy501/oyLog#readme",
+  "homepage": "https://github.com/royhersh/oyLog#readme",
   "dependencies": {
     "cli-color": "^1.1.0",
     "mkdirp": "^0.5.1"
