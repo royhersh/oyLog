@@ -17,9 +17,9 @@ var oylog = require('oy-log');
 var log = new oylog();
 
 // Config (optional)
-log.config.appName 		= 'my-app'; // Will be displayed for each message
-log.config.logFile 		= './app.log'; // Hold log messages
-log.config.errorLogFile = './error.log'; //Hold error messages
+log.config.appName = 'my-app'; // Will be displayed for each message
+log.config.logFile = './app.log'; // Hold log messages
+log.config.errorLogFile = './error.log'; // Hold error messages
 
 // Money Time
 log.start(); // put current date snapshot into log files
