@@ -42,12 +42,12 @@ function Logger() {
         switch (arguments.length) {
             case 1:
                  var msg = arguments[0];
-                 var toLog = msg;
+                 var toLog = color.white(msg);
                  break;
             case 2:
                  var action = arguments[0];
                  var msg = arguments[1];
-                 var toLog = color.greenBright(""+ action +": ") + msg;
+                 var toLog = color.greenBright(""+ action +": ") + color.white(msg);
         }
         console.log (color.whiteBright('[') + color.blackBright(now) + color.whiteBright('] ') + color.cyanBright(self.config.appName + ": ") + toLog);
     }
@@ -129,18 +129,3 @@ function Logger() {
 }
 
 module.exports = Logger;
-
-/*
-var log = new Logger;
-
-log.start();
-log.config.appName = "AutoAdi";
-log.config.logFile = "./Hello.log";
-
-//log.error.to.both ('oh No!');
-log.message.to.screen('Only text without action');
-log.message.to.file('Saying','Hello World');
-log.error.to.screen("Something went wrong ","for real");
-log.error.to.file("Just an error message without any other param");
-console.log ("Total Errors: ", log.totalErrors);
-log.end();*/
