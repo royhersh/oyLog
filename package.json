@@ -1,6 +1,6 @@
 {
   "name": "oy-log",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Log text to screen, file or both. Uses simple semantic syntax.",
   "main": "index.js",
   "scripts": {
